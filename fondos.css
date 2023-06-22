@@ -1,0 +1,98 @@
+body {
+    background-color: #00aeff;
+    color: white;
+}
+
+.titulouno {
+    margin-top: 120px;
+}
+
+.formulario {
+    margin-top: 200px;
+    padding: 60px;
+    max-width: 300px;
+    background-color: #21006b82;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    color: #525c66;
+    font-size: 1em;
+    resize: none;
+}
+
+.caja_pedido {
+    margin-left: 150px;
+    padding-bottom: 60px;
+}
+
+.imga {
+    width: 400px;
+    height: 400px;
+}
+
+.caract {
+    padding-right: 90em;
+}
+
+.botonvolver {
+    padding-top: 400px;
+}
+
+.contenedor_pedido{
+margin-top: 20px;
+margin-bottom: 80px;
+}
+
+
+.titulodos {
+    color: black ;
+    margin-top: 150px;
+}
+
+.formufinal {
+    margin: 0 auto;
+    width: 800px;
+    padding-bottom: 30px;  
+}
+
+.arrowLeft{
+    position:relative;
+    margin: 20px;
+    width:70px;
+    height: 38px;
+    background: #ffffff;
+    border:solid 1px #999;
+    float: top;
+   }
+   
+    .arrowLeft:before, .arrowLeft:after {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    top:-1px;
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;     
+    }
+    .arrowLeft:after {
+    border-right: 16px solid #ffffff;
+    left: -15px;
+    z-index: 2;
+    }
+    .arrowLeft:before {
+    border-right: 16px solid #999;
+    left: -16px;
+    z-index: 1;
+    }
+
+    .note{
+        padding: 10px;
+    }
